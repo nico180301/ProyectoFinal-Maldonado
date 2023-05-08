@@ -1,0 +1,99 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos para el body */
+body{
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #222629;
+    
+}
+
+/* Estilos para el contenedor principal */
+main{
+    max-width: 800px;
+    margin: 45px auto;
+    padding: 20px;
+    border-radius: 10px;
+    
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+    background-color: #ECECEC;
+    
+}
+
+/* Estilos para los encabezados */
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; /* Centro los elementos horizontalmente */
+    
+}
+
+div .input-container{
+    border-color: #222629;
+}
+
+.input-container {
+    position: relative;
+    margin: 50px;
+}
+
+.label-container{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.label-container label {
+    display: block; /* Cambiamos el display a block */
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.label-container input {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+/* Estilos para los botones */
+button {
+    width: 100%;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ed331e;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.resultado {
+    background-color: #fff;
+    width: 700px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+}  
